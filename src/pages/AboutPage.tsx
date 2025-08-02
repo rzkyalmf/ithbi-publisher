@@ -132,12 +132,12 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="mt-8 lg:mt-0">
-                <div className="aspect-[4/3] bg-gradient-to-br from-primary-100 to-primary-200 rounded-lg overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400">
-                    <svg className="w-24 h-24" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                  </div>
+                <div className="aspect-[4/3] bg-white rounded-lg overflow-hidden shadow-lg flex items-center justify-center p-8">
+                  <img 
+                    src="/logo-ithbi.png" 
+                    alt="Logo ITHBI" 
+                    className="w-48 h-48 lg:w-64 lg:h-64 object-contain"
+                  />
                 </div>
               </div>
             </div>
