@@ -56,6 +56,12 @@ export const authors: Author[] = [
     bio: "Ulama besar Saudi Arabia yang terkenal dengan penjelasan fiqh yang mudah dipahami.",
     photo: "/images/authors/utsaimin.jpg",
   },
+  {
+    id: "ustadz-malik",
+    name: "Ustadz Maulana Malik Ibrahim",
+    bio: "Mahasiswa LIPIA & Praktisi Thibbun Nabawi",
+    photo: "/images/authors/utsaimin.jpg",
+  },
 ];
 
 export const books: Book[] = [
@@ -218,7 +224,7 @@ export const books: Book[] = [
   {
     id: "hadits-43",
     title: "Terapi Jiwa Para Terapis",
-    author: "Ustadz Abdurahman Dani",
+    author: "Ustadz Maulana Malik Ibrahim",
     category: "thibbun-nabawi",
     description:
       "Panduan khusus untuk para terapis dalam menjaga kesehatan jiwa dan mental mereka sendiri. Menjelaskan cara mengatasi burnout dan stress dalam profesi sebagai terapis dengan pendekatan Islami.",
@@ -231,8 +237,8 @@ export const books: Book[] = [
     isbn: "978-602-1234-572-2",
     quote:
       '"Seorang terapis harus terlebih dahulu menyembuhkan jiwanya sendiri sebelum menyembuhkan orang lain."',
-    authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
-    authorPhoto: "/author/logoustdani.jpg",
+    authorBio: "Mahasiswa LIPIA & Praktisi Thibbun Nabawi",
+    authorPhoto: "/author/logo-ustadz-malik.jpg",
   },
   {
     id: "hadits-44",
