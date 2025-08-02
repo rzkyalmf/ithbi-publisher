@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               <div>
                 <span className="font-bold text-xl text-white">IThBI</span>
                 <p className="text-sm text-gray-400 leading-tight">
-                  Akademi Ath-Thibbul Badil Indonesia
+                  PT. Akademi Ath-Thibbul Badil Indonesia
                 </p>
               </div>
             </div>
@@ -138,8 +138,8 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>
-            &copy; {currentYear} Penerbit Ilmu Thibbul Badil Indonesia. Semua
-            hak dilindungi.
+            &copy; {currentYear} Penerbit PT. Akademi Ath-Thibbul Badil
+            Indonesia. Semua hak dilindungi.
           </p>
         </div>
       </div>

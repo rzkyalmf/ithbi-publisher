@@ -46,19 +46,19 @@ export const publisherInfo: PublisherInfo = {
   ],
   team: [
     {
-      name: "Ahmad Fauzi",
+      name: "Ryan Suryaman",
       position: "Direktur Utama",
-      bio: "Lulusan Universitas Islam Madinah dengan pengalaman 15 tahun di bidang penerbitan Islam.",
+      bio: "Praktisi Thibbun Nabawi & Ruqyah Syar'iyah dengan pengalaman kurang lebih 10 tahun.",
       photo: "/images/team/ahmad-fauzi.jpg",
     },
     {
-      name: "Siti Khadijah",
-      position: "Editor Senior",
+      name: "Maulana Malik Ibrahim",
+      position: "Editor",
       bio: "Magister Studi Islam dengan keahlian dalam editing dan review konten Islam.",
       photo: "/images/team/siti-khadijah.jpg",
     },
     {
-      name: "Muhammad Ridwan",
+      name: "Sandy Lucky Pratama",
       position: "Manajer Produksi",
       bio: "Berpengalaman dalam manajemen produksi buku dan quality control.",
       photo: "/images/team/muhammad-ridwan.jpg",
@@ -68,7 +68,7 @@ export const publisherInfo: PublisherInfo = {
 
 export const contactInfo: ContactInfo = {
   whatsapp: "6285187695229",
-  email: "ithbi@gmail.com",
+  email: "ptakademiaththibbulbadil@gmail.com",
   address:
     "Perumahan Bukit Waringin, Blok G2/11 RT07/14, Kab. Bogor, Jawa Barat 16920",
   operatingHours: {
@@ -88,7 +88,7 @@ export const faqs: FAQ[] = [
     id: "cara-pesan",
     question: "Bagaimana cara memesan buku?",
     answer:
-      "Anda dapat memesan buku melalui WhatsApp di nomor 081234567890 atau mengirim email ke info@penerbitislami.com. Sertakan judul buku, jumlah yang diinginkan, dan alamat pengiriman.",
+      "Anda dapat memesan buku melalui WhatsApp di nomor 085187695229 atau mengirim email ke ptakademiaththibbulbadil@gmail.com. Sertakan judul buku, jumlah yang diinginkan, dan alamat pengiriman.",
   },
   {
     id: "diskon-grosir",
