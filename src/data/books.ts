@@ -66,7 +66,7 @@ export const authors: Author[] = [
 
 export const books: Book[] = [
   {
-    id: "1",
+    id: "sehat-dengan-konsep-pola-makan-panas-dingin-1",
     title: "Sehat Dengan Konsep Pola Makan Panas & Dingin",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",
@@ -85,9 +85,10 @@ export const books: Book[] = [
       '"Makanan panas dan dingin memiliki pengaruh besar terhadap kesehatan tubuh menurut konsep thibbun nabawi."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
     authorPhoto: "/author/logoustdani.jpg",
+    pdfPreview: "http://103.76.120.242:9000/ithbi/publisher/book-7-preview.pdf",
   },
   {
-    id: "2",
+    id: "faedah-pengobatan-secara-islami-2",
     title: "Faedah Pengobatan Secara Islami",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",
@@ -106,7 +107,7 @@ export const books: Book[] = [
     authorPhoto: "/author/logoustdani.jpg",
   },
   {
-    id: "3",
+    id: "botani-sistematika-mortofologi-anatomi-khasiat-tumbuhan-3",
     title: "Botani Sistematika Mortofologi Anatomi Khasiat Tumbuhan",
     author: "Master Basirun. M.sc",
     category: "herbal",
@@ -126,7 +127,7 @@ export const books: Book[] = [
     authorPhoto: "/images/authors/bahmid.jpg",
   },
   {
-    id: "sirah-nabawiyah",
+    id: "islamic-medicine-pengobatan-thibbun-nabawi-kedokteran-arab-klasik-4",
     title:
       "Islamic Medicine Pengibatan Thibbun Nabawi & Kedokteran Arab Klasik",
     author: "Ustadz Abdurahman Dani",
@@ -146,7 +147,7 @@ export const books: Book[] = [
     authorPhoto: "/images/logoustdani.jpg",
   },
   {
-    id: "tafsir-juz-amma",
+    id: "sehat-dengan-pola-makan-panas-dingin-5",
     title: "Sehat dengan Pola Makan Panas & Dingin",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",
@@ -165,7 +166,7 @@ export const books: Book[] = [
     authorPhoto: "/author/logoustdani.jpg",
   },
   {
-    id: "hadits-40",
+    id: "modul-fashdu-kedokteran-arab-klasik-6",
     title: "Modul Fashdu Kedokteran Arab Klasik",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",
@@ -184,7 +185,7 @@ export const books: Book[] = [
     authorPhoto: "/author/logoustdani.jpg",
   },
   {
-    id: "hadits-41",
+    id: "buku-catatan-perjalanan-alumni-ithbi-7",
     title: "Buku Catatan Perjalanan Alumni ITHBI",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",
@@ -201,9 +202,10 @@ export const books: Book[] = [
       '"Perjalanan menuntut ilmu adalah investasi terbaik untuk kehidupan dunia dan akhirat."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
     authorPhoto: "/author/logoustdani.jpg",
+    pdfPreview: "/pdf/preview/book-7-preview.pdf",
   },
   {
-    id: "hadits-42",
+    id: "terapi-nabawi-mandiri-8",
     title: "Terapi Nabawi Mandiri",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",
@@ -222,7 +224,7 @@ export const books: Book[] = [
     authorPhoto: "/author/logoustdani.jpg",
   },
   {
-    id: "hadits-43",
+    id: "terapi-jiwa-para-terapis-9",
     title: "Terapi Jiwa Para Terapis",
     author: "Ustadz Maulana Malik Ibrahim",
     category: "thibbun-nabawi",
@@ -241,7 +243,7 @@ export const books: Book[] = [
     authorPhoto: "/author/logo-ustadz-malik.jpg",
   },
   {
-    id: "hadits-44",
+    id: "ilmu-bekam-yang-hilang-10",
     title: "Ilmu Bekam Yang Hilang",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",

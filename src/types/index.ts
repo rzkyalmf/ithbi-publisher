@@ -17,6 +17,7 @@ export interface Book {
   quote?: string;
   authorBio?: string;
   authorPhoto?: string;
+  pdfPreview?: string;
 }
 
 export interface Category {
