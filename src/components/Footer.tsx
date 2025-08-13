@@ -138,7 +138,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>
-            &copy; {currentYear} Penerbit PT. Akademi Ath-Thibbul Badil. Semua
+            &copy; {currentYear} Penerbit PT. Akademi Ath Thibbul Badil. Semua
             hak dilindungi.
           </p>
         </div>

@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                   IThBI
                 </span>
                 <p className="text-xs text-gray-600 leading-tight">
-                  PT. Akademi Ath-Thibbul Badil
+                  PT. Akademi Ath Thibbul Badil
                 </p>
               </div>
             </Link>
