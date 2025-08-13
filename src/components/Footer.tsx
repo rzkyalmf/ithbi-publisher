@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               <div>
                 <span className="font-bold text-xl text-white">IThBI</span>
                 <p className="text-sm text-gray-400 leading-tight">
-                  PT. Akademi Ath-Thibbul Badil
+                  PT. Akademi Ath Thibbul Badil
                 </p>
               </div>
             </div>
