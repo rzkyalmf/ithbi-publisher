@@ -1,9 +1,9 @@
 import type { ContactInfo, FAQ, PublisherInfo } from "../types";
 
 export const publisherInfo: PublisherInfo = {
-  name: "Ilmu Thibbul Badil Indonesia",
+  name: "Ilmu Thibbul Badil",
   description:
-    "Penerbit Ilmu Thibbul Badil Indonesia adalah penerbit yang berdedikasi untuk menyebarkan ilmu-ilmu Islam yang shahih dan bermanfaat. Kami berkomitmen untuk menerbitkan buku-buku berkualitas tinggi yang sesuai dengan Al-Quran dan As-Sunnah.",
+    "Penerbit Ilmu Thibbul Badil adalah penerbit yang berdedikasi untuk menyebarkan ilmu-ilmu Islam yang shahih dan bermanfaat. Kami berkomitmen untuk menerbitkan buku-buku berkualitas tinggi yang sesuai dengan Al-Quran dan As-Sunnah.",
   vision:
     "Menjadi penerbit terdepan dalam menyebarkan ilmu Islam yang shahih dan bermanfaat untuk umat.",
   mission: [
