@@ -66,16 +66,15 @@ export const authors: Author[] = [
 
 export const books: Book[] = [
   {
-    id: "sehat-dengan-konsep-pola-makan-panas-dingin-1",
-    title: "Sehat Dengan Konsep Pola Makan Panas & Dingin",
+    id: "sehat-dengan-konsep-panas-dingin-1",
+    title: "Sehat Dengan Konsep Panas & Dingin",
     author: "Ustadz Abdurahman Dani",
     category: "thibbun-nabawi",
     description:
       "Mengetahui hikmah dari 4 mizaj karakteristik tubuh, Literasi kutipan konsep thibbun nabawi & kedokteran arab klasik dari zaman klasik hingga modern",
     price: 150000,
-    coverImage: "/images/books/1.jpeg",
-    backCoverImage:
-      "https://placehold.co/600x900/6366F1/FFFFFF/png?text=Back+Cover",
+    coverImage:
+      "https://s3.ithbi.com/ithbi/publisher/ustadz-abdurahman-dani/sehat-dengan-konsep-panas-dingin/cover.jpeg",
     pages: 250,
     size: "14 x 21 cm",
     publishYear: 2023,
@@ -85,7 +84,6 @@ export const books: Book[] = [
       '"Makanan panas dan dingin memiliki pengaruh besar terhadap kesehatan tubuh menurut konsep thibbun nabawi."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
     authorPhoto: "/author/logoustdani.jpg",
-    pdfPreview: "http://103.76.120.242:9000/ithbi/publisher/book-7-preview.pdf",
   },
   {
     id: "faedah-pengobatan-secara-islami-2",
@@ -147,14 +145,15 @@ export const books: Book[] = [
     authorPhoto: "/images/logoustdani.jpg",
   },
   {
-    id: "sehat-dengan-pola-makan-panas-dingin-5",
-    title: "Sehat dengan Pola Makan Panas & Dingin",
-    author: "Ustadz Abdurahman Dani",
+    id: "buku-panduan-ruqyah-syariyyah",
+    title: "Buku Panduan Ruqyah Syar'iyyah",
+    author: "Ustadz Maulana Malik Ibrahim",
     category: "thibbun-nabawi",
     description:
-      "Panduan praktis untuk hidup sehat dengan memahami konsep pola makan panas dan dingin dalam thibbun nabawi. Menjelaskan cara menyeimbangkan makanan untuk kesehatan optimal.",
+      "Panduan praktis ruqyah berdasarkan al-quran, sunnah & penjelasan para ulama",
     price: 150000,
-    coverImage: "/images/books/5.jpeg",
+    coverImage:
+      "https://s3.ithbi.com/ithbi/publisher/ustadz-malik/buku-panduan-ruqyah-syariyyah/cover 1.jpeg",
     pages: 180,
     size: "14 x 21 cm",
     publishYear: 2023,
@@ -274,7 +273,7 @@ export const getBooksByCategory = (categoryId: string): Book[] => {
 
 export const getBooksByAuthor = (authorName: string): Book[] => {
   return books.filter((book) =>
-    book.author.toLowerCase().includes(authorName.toLowerCase())
+    book.author.toLowerCase().includes(authorName.toLowerCase()),
   );
 };
 
@@ -284,7 +283,7 @@ export const searchBooks = (query: string): Book[] => {
     (book) =>
       book.title.toLowerCase().includes(lowercaseQuery) ||
       book.author.toLowerCase().includes(lowercaseQuery) ||
-      book.description.toLowerCase().includes(lowercaseQuery)
+      book.description.toLowerCase().includes(lowercaseQuery),
   );
 };
 
@@ -300,7 +299,7 @@ export const getRelatedBooks = (bookId: string, limit: number = 3): Book[] => {
   // Get books from same category, excluding current book
   const relatedBooks = books
     .filter(
-      (book) => book.category === currentBook.category && book.id !== bookId
+      (book) => book.category === currentBook.category && book.id !== bookId,
     )
     .slice(0, limit);
 
@@ -308,7 +307,7 @@ export const getRelatedBooks = (bookId: string, limit: number = 3): Book[] => {
   if (relatedBooks.length < limit) {
     const otherBooks = books
       .filter(
-        (book) => book.category !== currentBook.category && book.id !== bookId
+        (book) => book.category !== currentBook.category && book.id !== bookId,
       )
       .slice(0, limit - relatedBooks.length);
     relatedBooks.push(...otherBooks);
