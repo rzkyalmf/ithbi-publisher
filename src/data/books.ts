@@ -105,6 +105,26 @@ export const books: Book[] = [
     authorPhoto: "/author/logoustdani.jpg",
   },
   {
+    id: "buku-panduan-ruqyah-syariyyah",
+    title: "Buku Panduan Ruqyah Syar'iyyah",
+    author: "Ustadz Maulana Malik Ibrahim",
+    category: "thibbun-nabawi",
+    description:
+      "Panduan praktis ruqyah berdasarkan al-quran, sunnah & penjelasan para ulama",
+    price: 150000,
+    coverImage:
+      "https://s3.ithbi.com/ithbi/publisher/ustadz-malik/buku-panduan-ruqyah-syariyyah/cover 1.jpeg",
+    pages: 180,
+    size: "14 x 21 cm",
+    publishYear: 2023,
+    paperType: "HVS",
+    isbn: "978-602-1234-571-5",
+    quote:
+      '"Keseimbangan dalam makanan adalah kunci untuk mencapai kesehatan yang optimal."',
+    authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
+    authorPhoto: "/author/logoustdani.jpg",
+  },
+  {
     id: "botani-sistematika-mortofologi-anatomi-khasiat-tumbuhan-3",
     title: "Botani Sistematika Mortofologi Anatomi Khasiat Tumbuhan",
     author: "Master Basirun. M.sc",
@@ -144,26 +164,7 @@ export const books: Book[] = [
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
     authorPhoto: "/images/logoustdani.jpg",
   },
-  {
-    id: "buku-panduan-ruqyah-syariyyah",
-    title: "Buku Panduan Ruqyah Syar'iyyah",
-    author: "Ustadz Maulana Malik Ibrahim",
-    category: "thibbun-nabawi",
-    description:
-      "Panduan praktis ruqyah berdasarkan al-quran, sunnah & penjelasan para ulama",
-    price: 150000,
-    coverImage:
-      "https://s3.ithbi.com/ithbi/publisher/ustadz-malik/buku-panduan-ruqyah-syariyyah/cover 1.jpeg",
-    pages: 180,
-    size: "14 x 21 cm",
-    publishYear: 2023,
-    paperType: "HVS",
-    isbn: "978-602-1234-571-5",
-    quote:
-      '"Keseimbangan dalam makanan adalah kunci untuk mencapai kesehatan yang optimal."',
-    authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
-    authorPhoto: "/author/logoustdani.jpg",
-  },
+
   {
     id: "modul-fashdu-kedokteran-arab-klasik-6",
     title: "Modul Fashdu Kedokteran Arab Klasik",
