@@ -13,7 +13,6 @@ export interface Book {
   size: string;
   publishYear: number;
   paperType: string;
-  isbn?: string;
   quote?: string;
   authorBio?: string;
   authorPhoto?: string;
@@ -82,7 +81,7 @@ export interface SEOProps {
   keywords?: string;
   image?: string;
   url?: string;
-  type?: 'website' | 'article';
+  type?: "website" | "article";
 }
 
 // Props untuk komponen Layout

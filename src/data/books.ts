@@ -79,7 +79,6 @@ export const books: Book[] = [
     size: "14 x 21 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-567-8",
     quote:
       '"Makanan panas dan dingin memiliki pengaruh besar terhadap kesehatan tubuh menurut konsep thibbun nabawi."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
@@ -98,7 +97,6 @@ export const books: Book[] = [
     size: "14 x 21 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-568-5",
     quote:
       '"Sesungguhnya Allah tidak menurunkan penyakit kecuali Dia juga menurunkan obatnya."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
@@ -118,7 +116,6 @@ export const books: Book[] = [
     size: "14 x 21 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-571-5",
     quote:
       '"Keseimbangan dalam makanan adalah kunci untuk mencapai kesehatan yang optimal."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
@@ -137,7 +134,6 @@ export const books: Book[] = [
     size: "14 x 21 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-569-2",
     quote:
       '"Tumbuhan adalah salah satu karunia Allah yang penuh dengan manfaat dan khasiat untuk kehidupan manusia."',
     authorBio:
@@ -158,7 +154,6 @@ export const books: Book[] = [
     size: "15 x 23 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-570-8",
     quote:
       '"Kedokteran Islam adalah warisan berharga yang menggabungkan ilmu pengetahuan dengan nilai-nilai spiritual."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
@@ -178,7 +173,6 @@ export const books: Book[] = [
     size: "12 x 19 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-572-2",
     quote:
       '"Fashdu adalah salah satu metode pengobatan yang telah terbukti manfaatnya sejak zaman klasik."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
@@ -197,7 +191,6 @@ export const books: Book[] = [
     size: "12 x 19 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-572-2",
     quote:
       '"Perjalanan menuntut ilmu adalah investasi terbaik untuk kehidupan dunia dan akhirat."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
@@ -217,7 +210,6 @@ export const books: Book[] = [
     size: "12 x 19 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-572-2",
     quote:
       '"Setiap orang dapat menjadi terapis bagi dirinya sendiri dengan mengikuti sunnah Rasulullah."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
@@ -236,7 +228,6 @@ export const books: Book[] = [
     size: "12 x 19 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-572-2",
     quote:
       '"Seorang terapis harus terlebih dahulu menyembuhkan jiwanya sendiri sebelum menyembuhkan orang lain."',
     authorBio: "Mahasiswa LIPIA & Praktisi Thibbun Nabawi",
@@ -255,7 +246,6 @@ export const books: Book[] = [
     size: "12 x 19 cm",
     publishYear: 2023,
     paperType: "HVS",
-    isbn: "978-602-1234-572-2",
     quote:
       '"Bekam adalah warisan pengobatan yang harus dilestarikan dan dipraktikkan kembali."',
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",

@@ -154,14 +154,14 @@ export default function BookDetailPage() {
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Halo, saya tertarik dengan buku "${book.title}" oleh ${book.author}. Bisakah saya mendapatkan informasi lebih lanjut?`
+    `Halo, saya tertarik dengan buku "${book.title}" oleh ${book.author}. Bisakah saya mendapatkan informasi lebih lanjut?`,
   );
   const whatsappUrl = `https://wa.me/6285187695229?text=${whatsappMessage}`;
   const emailSubject = encodeURIComponent(
-    `Pertanyaan tentang buku: ${book.title}`
+    `Pertanyaan tentang buku: ${book.title}`,
   );
   const emailBody = encodeURIComponent(
-    `Halo,\n\nSaya tertarik dengan buku "${book.title}" oleh ${book.author}.\n\nBisakah saya mendapatkan informasi lebih lanjut tentang ketersediaan dan cara pembelian?\n\nTerima kasih.`
+    `Halo,\n\nSaya tertarik dengan buku "${book.title}" oleh ${book.author}.\n\nBisakah saya mendapatkan informasi lebih lanjut tentang ketersediaan dan cara pembelian?\n\nTerima kasih.`,
   );
   const emailUrl = `mailto:ptakademiaththibbulbadil@gmail.com?subject=${emailSubject}&body=${emailBody}`;
 
@@ -171,7 +171,7 @@ export default function BookDetailPage() {
         title={`${book.title} - ${book.author} | Publisher Islami`}
         description={book.description}
         keywords={`${book.title}, ${book.author}, ${getCategoryName(
-          book.category
+          book.category,
         )}, buku islam`}
         image={book.coverImage}
         type="article"
@@ -244,12 +244,6 @@ export default function BookDetailPage() {
                       <span>Jenis kertas:</span>
                       <span className="font-medium">{book.paperType}</span>
                     </li>
-                    {book.isbn && (
-                      <li className="flex justify-between">
-                        <span>ISBN:</span>
-                        <span className="font-medium">{book.isbn}</span>
-                      </li>
-                    )}
                   </ul>
                 </div>
 
