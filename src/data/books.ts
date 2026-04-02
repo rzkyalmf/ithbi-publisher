@@ -77,7 +77,6 @@ export const books: Book[] = [
       "https://s3.ithbi.com/ithbi/publisher/ustadz-abdurahman-dani/sehat-dengan-konsep-panas-dingin/cover.jpeg",
     pages: 250,
     size: "14 x 21 cm",
-    publishYear: 2023,
     paperType: "HVS",
     quote:
       '"Makanan panas dan dingin memiliki pengaruh besar terhadap kesehatan tubuh menurut konsep thibbun nabawi."',
@@ -95,7 +94,6 @@ export const books: Book[] = [
     coverImage: "/images/books/2.jpeg",
     pages: 320,
     size: "14 x 21 cm",
-    publishYear: 2023,
     paperType: "HVS",
     quote:
       '"Sesungguhnya Allah tidak menurunkan penyakit kecuali Dia juga menurunkan obatnya."',
@@ -114,7 +112,7 @@ export const books: Book[] = [
       "https://s3.ithbi.com/ithbi/publisher/ustadz-malik/buku-panduan-ruqyah-syariyyah/cover 1.jpeg",
     pages: 180,
     size: "14 x 21 cm",
-    publishYear: 2023,
+
     paperType: "HVS",
     quote:
       '"Keseimbangan dalam makanan adalah kunci untuk mencapai kesehatan yang optimal."',
@@ -132,7 +130,7 @@ export const books: Book[] = [
     coverImage: "/images/books/3.jpeg",
     pages: 200,
     size: "14 x 21 cm",
-    publishYear: 2023,
+
     paperType: "HVS",
     quote:
       '"Tumbuhan adalah salah satu karunia Allah yang penuh dengan manfaat dan khasiat untuk kehidupan manusia."',
@@ -152,7 +150,7 @@ export const books: Book[] = [
     coverImage: "/images/books/4.jpeg",
     pages: 450,
     size: "15 x 23 cm",
-    publishYear: 2023,
+
     paperType: "HVS",
     quote:
       '"Kedokteran Islam adalah warisan berharga yang menggabungkan ilmu pengetahuan dengan nilai-nilai spiritual."',
@@ -171,7 +169,7 @@ export const books: Book[] = [
     coverImage: "/images/books/6.jpeg",
     pages: 150,
     size: "12 x 19 cm",
-    publishYear: 2023,
+
     paperType: "HVS",
     quote:
       '"Fashdu adalah salah satu metode pengobatan yang telah terbukti manfaatnya sejak zaman klasik."',
@@ -189,7 +187,7 @@ export const books: Book[] = [
     coverImage: "/images/books/7.jpeg",
     pages: 150,
     size: "12 x 19 cm",
-    publishYear: 2023,
+
     paperType: "HVS",
     quote:
       '"Perjalanan menuntut ilmu adalah investasi terbaik untuk kehidupan dunia dan akhirat."',
@@ -208,7 +206,6 @@ export const books: Book[] = [
     coverImage: "/images/books/8.jpeg",
     pages: 150,
     size: "12 x 19 cm",
-    publishYear: 2023,
     paperType: "HVS",
     quote:
       '"Setiap orang dapat menjadi terapis bagi dirinya sendiri dengan mengikuti sunnah Rasulullah."',
@@ -226,7 +223,7 @@ export const books: Book[] = [
     coverImage: "/images/books/9.jpeg",
     pages: 150,
     size: "12 x 19 cm",
-    publishYear: 2023,
+
     paperType: "HVS",
     quote:
       '"Seorang terapis harus terlebih dahulu menyembuhkan jiwanya sendiri sebelum menyembuhkan orang lain."',
@@ -244,7 +241,7 @@ export const books: Book[] = [
     coverImage: "/images/books/10.jpeg",
     pages: 150,
     size: "12 x 19 cm",
-    publishYear: 2023,
+
     paperType: "HVS",
     quote:
       '"Bekam adalah warisan pengobatan yang harus dilestarikan dan dipraktikkan kembali."',

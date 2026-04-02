@@ -236,10 +236,7 @@ export default function BookDetailPage() {
                       <span>Ukuran:</span>
                       <span className="font-medium">{book.size}</span>
                     </li>
-                    <li className="flex justify-between">
-                      <span>Tahun terbit:</span>
-                      <span className="font-medium">{book.publishYear}</span>
-                    </li>
+
                     <li className="flex justify-between">
                       <span>Jenis kertas:</span>
                       <span className="font-medium">{book.paperType}</span>

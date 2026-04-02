@@ -11,7 +11,6 @@ export interface Book {
   backCoverImage?: string;
   pages: number;
   size: string;
-  publishYear: number;
   paperType: string;
   quote?: string;
   authorBio?: string;
