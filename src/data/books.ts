@@ -257,7 +257,7 @@ export const books: Book[] = [
     description:
       "Keberadaan nikmat gigi, geligi, dan rongga mulut memiliki peran yang begitu besar dalam kehidupan manusia. Namun, nikmat ini sering kali hanya tampak seperti kilatan kecil yang luput dari perhatian—baik dalam mensyukuri maupun memeliharanya sebagai anugerah agung dari Allah Ta'ala.",
     price: 150000,
-    coverImage: "/images/books/11.jpeg",
+    coverImage: "/images/books/12.jpeg",
     pages: 88,
     size: "9 x 14 cm",
 
