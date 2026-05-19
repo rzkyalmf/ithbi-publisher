@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Akademi yang berdedikasi untuk pengembangan ilmu thibbul badil
+              Akademi yang berdedikasii untuk pengembangan ilmu thibbul badil
               (pengobatan alternatif) yang berkualitas dan bermanfaat.
             </p>
             <div className="flex space-x-4">
