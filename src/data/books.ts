@@ -248,6 +248,25 @@ export const books: Book[] = [
     authorBio: "Alumni Darul Hadist Yaman & Praktisi Thibbun Nabawi",
     authorPhoto: "/author/logoustdani.jpg",
   },
+  {
+    id: "rasulullah-sangat-mencintai-membersihkan-gigi-11",
+    title:
+      "Rasulullah Sangat Mencintai Membersihkan Gigi, Bagaimana Dengan Anda ?",
+    author: "Prof. Dr. Taufan Bramantoro, drg., M.Kes., FISDPH.FISPD.",
+    category: "herbal",
+    description:
+      "Keberadaan nikmat gigi, geligi, dan rongga mulut memiliki peran yang begitu besar dalam kehidupan manusia. Namun, nikmat ini sering kali hanya tampak seperti kilatan kecil yang luput dari perhatian—baik dalam mensyukuri maupun memeliharanya sebagai anugerah agung dari Allah Ta'ala.",
+    price: 150000,
+    coverImage: "/images/books/11.jpeg",
+    pages: 88,
+    size: "9 x 14 cm",
+
+    paperType: "HVS",
+    quote:
+      '"Ikhtiar membersihkan gigi ternyata tidak hanya berbuah keutamaan dunia berupa kebersihan dan kesehatan, tetapi juga membuka peluang besar meraih kebaikan akhirat"',
+    authorBio: "Dokter Gigi",
+    authorPhoto: "/author/logo-ustadz-taufan.jpg",
+  },
 ];
 
 // Helper functions
