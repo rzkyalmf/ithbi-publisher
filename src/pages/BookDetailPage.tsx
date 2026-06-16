@@ -233,6 +233,10 @@ export default function BookDetailPage() {
                       <span className="font-medium">{book.pages} halaman</span>
                     </li>
                     <li className="flex justify-between">
+                      <span>ISBN:</span>
+                      <span className="font-medium">{book.isbn}</span>
+                    </li>
+                    <li className="flex justify-between">
                       <span>Ukuran:</span>
                       <span className="font-medium">{book.size}</span>
                     </li>

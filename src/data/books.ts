@@ -69,6 +69,7 @@ export const books: Book[] = [
     id: "sehat-dengan-konsep-panas-dingin-1",
     title: "Sehat Dengan Konsep Panas & Dingin",
     author: "Ustadz Abdurahman Dani",
+    isbn: "978-634-05-0104-9",
     category: "thibbun-nabawi",
     description:
       "Mengetahui hikmah dari 4 mizaj karakteristik tubuh, Literasi kutipan konsep thibbun nabawi & kedokteran arab klasik dari zaman klasik hingga modern",
@@ -87,6 +88,7 @@ export const books: Book[] = [
     id: "faedah-pengobatan-secara-islami-2",
     title: "Faedah Pengobatan Secara Islami",
     author: "Ustadz Abdurahman Dani",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Panduan lengkap tentang faedah dan manfaat pengobatan secara Islami berdasarkan Al-Quran dan Sunnah. Menjelaskan berbagai metode pengobatan yang dicontohkan Rasulullah SAW.",
@@ -104,6 +106,7 @@ export const books: Book[] = [
     id: "buku-panduan-ruqyah-syariyyah",
     title: "Buku Panduan Ruqyah Syar'iyyah",
     author: "Ustadz Maulana Malik Ibrahim",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Panduan praktis ruqyah berdasarkan al-quran, sunnah & penjelasan para ulama",
@@ -123,6 +126,7 @@ export const books: Book[] = [
     id: "botani-sistematika-mortofologi-anatomi-khasiat-tumbuhan-3",
     title: "Botani Sistematika Mortofologi Anatomi Khasiat Tumbuhan",
     author: "Master Basirun. M.sc",
+    isbn: "-",
     category: "herbal",
     description:
       "Pembahasan sistematika mortofologi anatomi khasiat tumbuhan, termasuk penjelasan konsep konsep botani, anatomi, mortofologi, dan khasiat.",
@@ -143,6 +147,7 @@ export const books: Book[] = [
     title:
       "Islamic Medicine Pengibatan Thibbun Nabawi & Kedokteran Arab Klasik",
     author: "Ustadz Abdurahman Dani",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Pembahasan mendalam tentang Islamic Medicine, pengobatan thibbun nabawi dan kedokteran Arab klasik. Menggabungkan ilmu kedokteran modern dengan tradisi pengobatan Islami.",
@@ -162,6 +167,7 @@ export const books: Book[] = [
     id: "modul-fashdu-kedokteran-arab-klasik-6",
     title: "Modul Fashdu Kedokteran Arab Klasik",
     author: "Ustadz Abdurahman Dani",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Modul pembelajaran tentang fashdu (bekam) dalam kedokteran Arab klasik. Menjelaskan teknik, manfaat, dan aplikasi fashdu berdasarkan literatur kedokteran tradisional.",
@@ -180,6 +186,7 @@ export const books: Book[] = [
     id: "buku-catatan-perjalanan-alumni-ithbi-7",
     title: "Buku Catatan Perjalanan Alumni ITHBI",
     author: "Ustadz Abdurahman Dani",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Kumpulan catatan perjalanan dan pengalaman para alumni ITHBI dalam menerapkan ilmu thibbun nabawi. Berisi kisah inspiratif dan pembelajaran berharga dari praktisi lapangan.",
@@ -199,6 +206,7 @@ export const books: Book[] = [
     id: "terapi-nabawi-mandiri-8",
     title: "Terapi Nabawi Mandiri",
     author: "Ustadz Abdurahman Dani",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Panduan praktis untuk melakukan terapi nabawi secara mandiri di rumah. Menjelaskan berbagai metode pengobatan alami yang diajarkan Rasulullah SAW dengan cara yang mudah dipraktikkan.",
@@ -216,6 +224,7 @@ export const books: Book[] = [
     id: "terapi-jiwa-para-terapis-9",
     title: "Terapi Jiwa Para Terapis",
     author: "Ustadz Maulana Malik Ibrahim",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Panduan khusus untuk para terapis dalam menjaga kesehatan jiwa dan mental mereka sendiri. Menjelaskan cara mengatasi burnout dan stress dalam profesi sebagai terapis dengan pendekatan Islami.",
@@ -234,6 +243,7 @@ export const books: Book[] = [
     id: "ilmu-bekam-yang-hilang-10",
     title: "Ilmu Bekam Yang Hilang",
     author: "Ustadz Abdurahman Dani",
+    isbn: "-",
     category: "thibbun-nabawi",
     description:
       "Mengungkap kembali ilmu bekam yang hampir hilang dari peradaban modern. Menjelaskan teknik-teknik bekam tradisional yang telah terbukti efektif sejak zaman Rasulullah Shallallahu 'alaihi wasallam.",
@@ -253,6 +263,7 @@ export const books: Book[] = [
     title:
       "Rasulullah Sangat Mencintai Membersihkan Gigi, Bagaimana Dengan Anda ?",
     author: "Prof. Dr. Taufan Bramantoro, drg., M.Kes., FISDPH.FISPD.",
+    isbn: "978-634-05-1511-4",
     category: "herbal",
     description:
       "Keberadaan nikmat gigi, geligi, dan rongga mulut memiliki peran yang begitu besar dalam kehidupan manusia. Namun, nikmat ini sering kali hanya tampak seperti kilatan kecil yang luput dari perhatian—baik dalam mensyukuri maupun memeliharanya sebagai anugerah agung dari Allah Ta'ala.",
